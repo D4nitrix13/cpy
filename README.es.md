@@ -16,9 +16,9 @@ python3 cpy.py [-h] [-o] [-i] [-r] [-v] source destination
 
 ### ***Argumentos***
 
-- *`source`: Directorio o archivo de origen que se copiará.*
+- *`source`: Directorio o fichero de origen que se copiará.*
 
-- *`destination`: Directorio o archivo de destino donde se copiará `source`.*
+- *`destination`: Directorio o fichero de destino donde se copiará `source`.*
 
 #### ***Opciones***
 
@@ -26,7 +26,7 @@ python3 cpy.py [-h] [-o] [-i] [-r] [-v] source destination
 
 - *`-o`, `--override`: Sobrescribe los ficheros de destino si ya existen.*
 
-- *`-i`, `--interactive`: Pregunta si se desea sobrescribir el archivo si ya existe en el destino.*
+- *`-i`, `--interactive`: Pregunta si se desea sobrescribir el fichero si ya existe en el destino.*
 
 - *`-r`, `--recursive`: Copia los directorios de forma recursiva.*
 
@@ -34,7 +34,7 @@ python3 cpy.py [-h] [-o] [-i] [-r] [-v] source destination
 
 ## ***Ejemplos de Uso***
 
-1. *Copiar un archivo:*
+1. *Copiar un fichero:*
 
     ```bash
     python3 cpy.py file.txt new_directory/
@@ -46,13 +46,13 @@ python3 cpy.py [-h] [-o] [-i] [-r] [-v] source destination
     python3 cpy.py -r directory/ new_directory/
     ```
 
-3. *Copiar un archivo sobrescribiendo el destino si ya existe:*
+3. *Copiar un fichero sobrescribiendo el destino si ya existe:*
 
     ```bash
     python3 cpy.py -o file.txt existing_directory/
     ```
 
-4. *Copiar un archivo interactivo:*
+4. *Copiar un fichero interactivo:*
 
 ```bash
 python3 cpy.py -i file.txt existing_directory/
@@ -137,7 +137,7 @@ sudo pacman -Syu pyinstaller
     pyinstaller --onefile ./cpy.py
     ```
 
-  - *Esto creará un archivo ejecutable llamado cp en el directorio cpy/src/dist. Ahora puedes ejecutar el binario de CP en tu sistema Linux.*
+  - *Esto creará un fichero ejecutable llamado cp en el directorio cpy/src/dist. Ahora puedes ejecutar el binario de CP en tu sistema Linux.*
   
   ```bash
   user@user-host:~/Desktop/cpy/src/$ tree -C
