@@ -1,6 +1,6 @@
 <!-- Author: Daniel Benjamin Perez Morales -->
-<!-- GitHub: https://github.com/DanielBenjaminPerezMoralesDev13 -->
-<!-- Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
+<!-- GitHub: https://github.com/D4nitrix13 -->
+<!-- Gitlab: https://gitlab.com/D4nitrix13 -->
 <!-- Email: danielperezdev@proton.me  -->
 # ***CPY - Python Implementation of the cp Command***
 
@@ -124,7 +124,7 @@ sudo pacman -Syu pyinstaller
 
 **Generate the binary:**
 
-- *Clone the repository from the URL: [repository](https://github.com/DanielBenjaminPerezMoralesDev13/cpy.git "https://github.com/DanielBenjaminPerezMoralesDev13/cpy").*
+- *Clone the repository from the URL: [repository](https://github.com/D4nitrix13/cpy.git "https://github.com/D4nitrix13/cpy").*
 
   - *Navigate to the **cpy/src** directory in your terminal.*
 
@@ -201,6 +201,6 @@ sudo pacman -Syu pyinstaller
 
 - ***Author:** Daniel Benjamin Perez Morales*
 
-- ***GitHub:** [DanielBenjaminPerezMoralesDev13](https://github.com/DanielBenjaminPerezMoralesDev13 "https://github.com/DanielBenjaminPerezMoralesDev13")*
+- ***GitHub:** [D4nitrix13](https://github.com/D4nitrix13 "https://github.com/D4nitrix13")*
 
 - ***Email:** <danielperezdev@proton.me>*
